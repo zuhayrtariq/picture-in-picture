@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: firebrick;
+}
+
+button {
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background-color: gold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 6px 2px rgba(90, 89, 89, 0.7);
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    transform: translateY(6px);
+    box-shadow: 0px 2px 2px rgba(90, 89, 89, 0.7);
+}
